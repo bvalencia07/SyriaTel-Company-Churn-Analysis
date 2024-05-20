@@ -38,6 +38,7 @@ Ultimately, the telecommunication company of SyriaTel would be recommended to us
 
 ![tel_2](https://github.com/bvalencia07/SyriaTel-Company-Churn-Analysis/assets/149977850/cbd2feaa-cff8-44aa-b12b-67d194e4551f)
 
+## Structure
 
 -.gitignore
 
