@@ -12,8 +12,11 @@ This confusion matrix indicates that the model correctly predicted 98 instances 
 
 The logistic regression model seems to have a poor performance. The accuracy, precision, and F1-score all seemed to all be low for both the training and testing dataset.
 ## Decisioin Tree
+![Screenshot 2024-05-20 042504](https://github.com/bvalencia07/SyriaTel-Company-Churn-Analysis/assets/149977850/ec09d07b-3652-42ab-8116-933ce606a595)
 
+This confusion matrix indicates that the model correctly predicted 95 instances of a customer churning, and correctly predicted 650 instances where customers didn't churn. However, the model incorrectly predicted 59 instances as not churn as churn. As well as 30 instances that were classified as not churn when they in fact did. The decision tree seems to be more promising than the logistic regression model, however, there is still overfitting. This could be delt with by either continueing to look into different models or applying hyperparameters.
 
+The decision tree seemed to have a better performance than the logistic regression based on the testing and training scores both being higher on this model than the previous. However, there does seem to be some overfitting as the training data for the precision, recall, and f1 score all seem to be perfect while their testing counterpart is significantly lower in comparison. It is important to note that although some of these scores are higher for this model than the previos, this model still gives the impression it may struggle to properly generalize to unseen data.
 ## Random Forest
 
 
