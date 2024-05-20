@@ -24,8 +24,11 @@ This confusion matrix indicates that the model correctly predicted 100 instances
 
 The random forest model seems to be even better than the decision tree model. All aspects of the testing model seemed to have quite the improvement with an accuracy going up from 0.89 to 0.94. However, there still seems to be some overfitting due to the training set having a perfect score of 1.0. From here one can either continue to test different models or try to add hyperparameters to fix the overfitting of the model.
 ### Random Forest with Hyperparameters
+![Screenshot 2024-05-20 043056](https://github.com/bvalencia07/SyriaTel-Company-Churn-Analysis/assets/149977850/d84822b1-7dde-4650-a610-bb9020dd3124)
 
+The above revised matrix shows the were 102 instances where the model correctly predicted that a customer would churn and they did, as well as correctly predicting that 690 customers to not churn. However, the model incorrectly predicted 19 instances as not churn as churn. As well as 23 instances that were classified as not churn when they in fact did. None the less, it is an improvement over all the previous models.
 
+The f1-score and the precision went up for the testing data. The recall too had an increase, even though it was a relatively small one. There was a noticable drop in comparison to the previous model in regards to the overfitting.
 # Evaluation
 
 # Conclusion
