@@ -37,3 +37,11 @@ This analysis consisted of looking at three basic models being a logistic regres
 Ultimately, the telecommunication company of SyriaTel would be recommended to use the Random Forest model with the applied hyperparameters. The model had an overall accuracy of approximately 94.96%. A further good indicator of a successful model is a high f1-score (0.83), which can only be high if the recall and precision is high. As previously stated, as a company SyriaTel should always look to improve in every way possible for customer improvement, however they should look into the amouont of international calls their customers are making and how much they are charging for international calls. While at it review the voice mail plans that the customers have and customer service.
 
 ![tel_2](https://github.com/bvalencia07/SyriaTel-Company-Churn-Analysis/assets/149977850/cbd2feaa-cff8-44aa-b12b-67d194e4551f)
+
+
+-.gitignore
+-README.md
+-SyriaTel Churn Analysis.ipynb
+-presentation.pdf
+-syriatel_churn_data.csv
+-
