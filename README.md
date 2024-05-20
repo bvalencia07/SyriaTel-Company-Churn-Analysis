@@ -10,18 +10,6 @@ SyriaTel, the stakeholder, is looking to identify what customers are likely to c
 
 This confusion matrix indicates that the model correctly predicted 98 instances of a customer churning, and correctly predicted 552 instances where customers didn't churn. However, the model incorrectly predicted 157 instances as not churn as churn. As well as 27 instances that were classified as not churn when they in fact did. The excesive amount of false positives and negatives indicate that this may not be the best model and that it may require some refining.
 
-LR Training Accuracy:  0.4511910322279309
-LR Testing Accuracy:  0.7793764988009593
-
-LR Training Precision:  0.3578231292517007
-LR Testing Precision:  0.3843137254901961
-
-LR Training Recall:  0.7346368715083799
-LR Testing Recall:  0.784
-
-LR Training F1-Score:  0.4812442817932297
-LR Testing F1-Score:  0.5157894736842106
-
 The logistic regression model seems to have a poor performance. The accuracy, precision, and F1-score all seemed to all be low for both the training and testing dataset.
 ## Decisioin Tree
 
