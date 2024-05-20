@@ -5,9 +5,11 @@ This analysis encapsles the search behind determining whether customers for a te
 # Business and Data Understanding
 SyriaTel, the stakeholder, is looking to identify what customers are likely to churn in order to take an active approach to try and retain these customers in order to prevent loss in revenue. By knowing what customers are likely to churn they can identify what aspects of their company need improvement. The word churn refers to how many people choose to stop taking part in a service or product by a company. A [dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset/data) containing features for customers such as charges, number of calls, and voicemail plans among other things has been provided. To fully understand the data at hand, it will have to be separated between numeric and categorical features as well as put into different predictive models to test which performs best.
 # Modeling
-## Logistic Regression
+### Logistic Regression
 ![Screenshot 2024-05-20 041545](https://github.com/bvalencia07/SyriaTel-Company-Churn-Analysis/assets/149977850/f1ff3f23-dad2-435d-8267-f5f1bf0379f4)
+
 This confusion matrix indicates that the model correctly predicted 98 instances of a customer churning, and correctly predicted 552 instances where customers didn't churn. However, the model incorrectly predicted 157 instances as not churn as churn. As well as 27 instances that were classified as not churn when they in fact did. The excesive amount of false positives and negatives indicate that this may not be the best model and that it may require some refining.
+
 LR Training Accuracy:  0.4511910322279309
 LR Testing Accuracy:  0.7793764988009593
 
@@ -19,6 +21,7 @@ LR Testing Recall:  0.784
 
 LR Training F1-Score:  0.4812442817932297
 LR Testing F1-Score:  0.5157894736842106
+
 The logistic regression model seems to have a poor performance. The accuracy, precision, and F1-score all seemed to all be low for both the training and testing dataset.
 ## Decisioin Tree
 
